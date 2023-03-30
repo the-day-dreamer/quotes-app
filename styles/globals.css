@@ -7,3 +7,6 @@
 :root{
   --bodyFont:'Source Code Pro', monospace;
 }
+body{
+  overflow-x: hidden;
+}
