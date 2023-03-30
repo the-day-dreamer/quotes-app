@@ -4,7 +4,7 @@
   background-color: black;
 } */
 .background{
-  height: 200vh;
+  height: 220vh;
   width: 100vw;
   background-image: url('../public/jokerPc.jpg');
   background-repeat: 1;
