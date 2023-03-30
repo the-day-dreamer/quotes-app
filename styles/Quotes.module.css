@@ -1,0 +1,76 @@
+.quotes{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.quotesLeft{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.quotesRight{
+    width: 50%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.quotesLeftBox{
+    
+    width: 60%;
+    min-height: 75%;
+    /* border: 1px solid red; */
+    margin: auto;
+    font-family: var(--bodyFont);
+    
+}
+.boxText{
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.boxAuthor{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid red; */
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.buttonBox{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    
+}
+.quotesLeftButton{
+    height: 5vh;
+    background-color: #EA2027;
+    color: white;
+    width: 13vw;
+    height: 7vh;
+    border: none;
+    font-family: var(--bodyFont);
+    cursor: pointer;
+}
+.insideBoxLeft{
+    width: 50%;
+    height: 100%;
+}
+.insideBoxRight{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+
+}
+@media only screen and (max-width: 530px) {
+    .quotesLeftButton{
+        width: 20vw;
+    }
+  }

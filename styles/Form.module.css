@@ -1,0 +1,18 @@
+.label{
+    color: #fff;
+    font-size: 1rem;
+    font-family: var(--bodyFont);
+}
+.option{
+    font-family: var(--bodyFont);
+    width: 10vw;
+    height: 4vh;
+   
+    
+}
+.optionBox{
+    margin-top: 2vh;
+    /* text-align: center; */
+    width: 100%;
+    
+}

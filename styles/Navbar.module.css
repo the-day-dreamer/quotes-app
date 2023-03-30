@@ -1,0 +1,16 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+}
+.navbarTitle{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 2vw;
+    font-size: 1.6rem;
+    font-family: var(--bodyFont);
+    font-weight: 600;
+}

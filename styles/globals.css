@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bodyFont:'Source Code Pro', monospace;
+}
+body{
+  background-image: url('../public/jokerPc.jpg');
+  background-repeat: 1;
+  background-size: cover;
+  background-position: center;
+}
