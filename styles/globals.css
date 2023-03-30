@@ -2,13 +2,8 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 :root{
   --bodyFont:'Source Code Pro', monospace;
-}
-body{
-  background-image: url('../public/jokerPc.jpg');
-  background-repeat: 1;
-  background-size: cover;
-  background-position: center;
 }

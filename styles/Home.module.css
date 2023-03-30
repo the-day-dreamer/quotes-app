@@ -3,3 +3,11 @@
   width: 100vw;
   background-color: black;
 } */
+.background{
+  height: 200vh;
+  width: 100vw;
+  background-image: url('../public/jokerPc.jpg');
+  background-repeat: 1;
+  background-size: cover;
+  background-position: center;
+}
