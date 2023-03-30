@@ -31,7 +31,7 @@ const Quotes = () => {
         <div className={styles.quotes}>
             <div className={styles.quotesLeft}>
                 <div className={styles.quotesLeftBox}>
-                    <div className={styles.boxText}>"{quotes}"</div>
+                    <div className={styles.boxText}>{quotes}</div>
                     <div className={styles.boxAuthor}>-{author}</div>
                 </div>
                 <div className={styles.buttonBox}><button className={styles.quotesLeftButton} onClick={handleQuotes}>GENERATE QUOTES</button></div>
